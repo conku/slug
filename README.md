@@ -2,7 +2,7 @@
 
 Slug provides an easy way to create a [pretty URL](https://en.wikipedia.org/wiki/Semantic_URL#Slug), a.k.a. [Search Engine Friendly (SEF) URL](https://en.wikipedia.org/wiki/Semantic_URL#Slug), for your model.
 
-[![GoDoc](https://godoc.org/github.com/qor/slug?status.svg)](https://godoc.org/github.com/qor/slug)
+[![GoDoc](https://godoc.org/github.com/conku/slug?status.svg)](https://godoc.org/github.com/conku/slug)
 
 ## Usage
 
@@ -11,7 +11,7 @@ Use `slug.Slug` as your field type with the same name as the benefactor field, f
 ```go
 import (
   "github.com/jinzhu/gorm"
-  "github.com/qor/slug"
+  "github.com/conku/slug"
 )
 
 type User struct {
@@ -21,7 +21,7 @@ type User struct {
 }
 ```
 
-Then in the [QOR Admin](https://github.com/qor/admin) interface, you will see a slug field.
+Then in the [QOR Admin](https://github.com/conku/admin) interface, you will see a slug field.
 
 ## License
 
