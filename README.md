@@ -10,7 +10,7 @@ Use `slug.Slug` as your field type with the same name as the benefactor field, f
 
 ```go
 import (
-  "github.com/jinzhu/gorm"
+  "github.com/conku/gorm"
   "github.com/conku/slug"
 )
 
